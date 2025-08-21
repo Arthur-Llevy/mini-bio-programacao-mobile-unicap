@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "mini-bio-programacao-mobile-unicap",
+    "slug": "mini-bio-programacao-mobile-unicap",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arthurlevy.minibioprogramacaomobileunicap"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.arthurlevy.minibioprogramacaomobileunicap"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "db4a2936-da12-4f78-b3b3-c87df0db5344"
+      }
+    },
+    "owner": "arthurlevy",
+    "updates": {
+      "url": "https://u.expo.dev/db4a2936-da12-4f78-b3b3-c87df0db5344"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
